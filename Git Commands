@@ -52,6 +52,14 @@ as a new folder with the same name as the repository name, with git initialized:
 git clone https://github.com/monicag-gupta/Proj1.git
 
 
+If SSH (https security) error occurs:
+
+git -c http.sslVerify=false clone https://github.com/monicag-gupta/Proj1.git
+
+
+
+
+
 
 
 
