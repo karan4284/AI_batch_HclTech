@@ -88,6 +88,51 @@ You need to authenticate the github account
 and then check the repository for the updated content
 
 
+Two ways to create a new branch:
+1) Create and Switch to a New Branch
+    git checkout -b feature-branch
+2) Create Multiple Branches, but remain at the main branch
+    git branch feature-login
+    git branch feature-payment
+Later go to the branch by 
+    git checkout feature-branch
+
+Delete a branch:
+Delete Branches usually done after Merge
+git branch -d feature-login
+
+Step : Create the branch dev :
+git checkout -b feature-dev
+
+To see the branches:
+ git branch
+
+
+Add a new file :
+Hello.js:
+
+function clickme(){
+    alert("Button clicked");
+}
+
+save the file
+
+go to terminal:
+git add .
+
+git commit -m "Hello.js added"
+
+
+Push All Branches to Remote:
+git push origin feature-dev
+git push origin feature-design
+
+
+
+
+
+
+
 
 
 
