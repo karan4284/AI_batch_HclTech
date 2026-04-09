@@ -397,7 +397,42 @@ git merge feature-dev
 
 
 
+For GitLab:
 
+Prepare a new project in gitlab with Readme file
+Make it public.
+
+
+Then in local system:
+
+git config --global http.sslBackend openssl
+git clone https://gitlab.com/gupta.monicag/leavesmanagementsys.git
+
+
+cd leavesmanagementsys
+
+create a new file :
+Leaves.txt:
+This is a new file made in local system.
+
+Save
+Add in git
+commit as "New file added"
+
+git push origin main
+
+Check in the project of gitlab if the new file is added.
+Edit the file in gitlab:
+Leaves.txt:
+This is a new file made in local system.
+Now Edited in Gitlab
+
+Commit
+
+Now go to local system:
+git pull
+
+Check to find the contents are updated.
 
 
 

@@ -1,0 +1,91 @@
+Githup Repo:
+BankingProj
+
+abc.txt:
+Hello World
+
+Local system:
+Create a folder BankingProj
+
+Open the Proj in VS code
+
+Add a file : Bank.html:
+<html>
+    <body>
+        <h3>Simple Interest Calculation:</h3>
+        Enter Principle Amount:
+        <input type="text" id="amt"/>
+        <br/>
+        Enter Time Period:
+        <input type="text" id="nper"/>
+        <br/>
+        Enter Rate of Interest:
+        <input type="text" id="rate"/>
+        <br/>
+        <input type="button" value="SI"/>
+    </body>
+</html>
+
+
+git init
+git add .
+git commit -m "Plain HTML file"
+
+
+git remote add origin https://github.com/monicag-gupta/BankingProj.git
+
+rename cuurent branch :
+git branch -m main
+
+
+git push origin main
+
+git push --force origin main 
+
+
+Edit Bank.html:
+
+<html>
+    <head>
+        <script src="Bank.js"></script>
+    </head>
+    <body>
+        <h3>Simple Interest Calculation:</h3>
+        Enter Principle Amount:
+        <input type="text" id="amt"/>
+        <br/>
+        Enter Time Period:
+        <input type="text" id="nper"/>
+        <br/>
+        Enter Rate of Interest:
+        <input type="text" id="rate"/>
+        <br/>
+        <input type="button" value="SI" onclick="calculateSI()"/>
+        <p id="res">Result:</p>
+    </body>
+</html>
+
+
+
+Add a new file: Bank.js:
+
+function calculateSI(){
+    var p=document.getElementById("amt").value;
+    var n=document.getElementById("nper").value;
+    var r=document.getElementById("rate").value;
+    var si=(p*n*r)/100;
+    document.getElementById("res").innerHTML += " " + si + " Rs."; 
+}
+
+
+
+
+function calculateSI(){
+    var p=document.getElementById("amt").value;
+    var n=document.getElementById("nper").value;
+    var r=document.getElementById("rate").value;
+    var si=(p*n*r)/100;
+    document.getElementById("res").innerHTML = "Result: " + si + " Rs."; 
+}
+
+
