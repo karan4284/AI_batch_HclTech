@@ -9,3 +9,17 @@
 	</body>
 </html>
 
+
+
+
+<html>
+	<body>
+		<form method="post">
+			Enter Your Name: 
+			<input type="text" name="username"/>
+			<br>
+			<input type="submit"/>
+		</form>
+	</body>
+</html>
+
