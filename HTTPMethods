@@ -1,0 +1,50 @@
+<html>
+	<body>
+		<form>
+			Enter Your Name: 
+			<input type="text" name="username"/>
+			<br>
+			<input type="submit"/>
+		</form>
+	</body>
+</html>
+
+
+
+
+<html>
+	<body>
+		<form method="post">
+			Enter Your Name: 
+			<input type="text" name="username"/>
+			<br>
+			<input type="submit"/>
+		</form>
+	</body>
+</html>
+
+
+
+
+<html>
+	<body>
+		<h1>Form1 method Post:</h1>
+		<form method="post">
+			Enter Your Name: 
+			<input type="text" name="username"/>
+			<br>
+			<input type="submit"/>
+		</form>
+		<hr><h1>Form2 method Get:</h1>
+		<form>
+			Enter Your Name: 
+			<input type="text" name="username"/>
+			<br>
+			<input type="submit"/>
+		</form>
+
+	</body>
+</html>
+
+
+
