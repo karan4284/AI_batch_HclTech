@@ -1,0 +1,30 @@
+Prompt Engineering Activities
+Slide NO: 11
+Slide NO: 12
+Slide NO: 13
+Slide NO: 14
+Slide NO: 26
+Slide NO: 41
+Slide NO: 43
+Slide NO: 50
+Slide NO: 51
+Slide NO: 52
+Slide NO: 53
+Slide NO: 54
+Slide NO: 55
+Slide NO: 64 to 70
+Total 20 Activities
+ 
+Assignment1: (Webpage creation)
+Dear learners Below are three real-world scenarios. For each scenario, you must write an effective prompt applying principles of prompt engineering such as clarity, context, constraints, and appropriate prompt type.
+Scenario 1: You are building a chatbot(html page based or advanced)  for a healthcare website. The chatbot should provide general wellness tips but avoid giving medical diagnoses. Write a clear and safe prompt for the AI model to generate responses.
+
+Assignment2: (text based)
+Scenario 2: You need the AI to summarize a 2,000-word research article on climate change into a 150-word executive summary for policymakers. Include constraints and specify the tone. Write the prompt.
+Scenario 3: You are creating a few-shot prompt for generating creative short stories in the style of classic fairy tales. Provide examples and then ask the model to create a new story. Write the complete prompt.
+
+
+Assignment3:  (image generation)
+Below is a scenario related to image generation. Learners must write an effective prompt applying principles of clarity, context, constraints, and specificity for an AI image generation model.
+Scenario: You are designing a promotional poster for a winter travel campaign. The image should depict a cozy wooden cabin in a snowy forest at sunset, with warm light glowing from the windows. The style should be photorealistic, resolution 1024x1024 pixels, and include vibrant colors. Write a detailed prompt for an AI image generation model to create this image.
+ 
